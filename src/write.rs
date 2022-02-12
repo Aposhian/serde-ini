@@ -10,7 +10,7 @@ pub enum LineEnding {
 
 impl Default for LineEnding {
     fn default() -> Self {
-        LineEnding::CrLf
+        LineEnding::Linefeed
     }
 }
 
